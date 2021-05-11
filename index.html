@@ -3,18 +3,21 @@
 
 <head>
     <link rel="stylesheet" href="style.css" title="external style sheet">
-    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Days+One" />
+    <title>Etch-A-Sketch </title>
 </head>
 
 <body>
-    <!--here you can have some HTML markup to play with-->
-    <h1>Etch-A-Sketch</h1>
-    <div class="square">
-        <h1>This is a Square</h1>
+    <h1 id="titleText">Etch-a-Sketch</h1>
+    <div  id="buttonsContainer">
+        <button class="colorButtons" id="resetButton">Reset</button>
+        <button class="colorButtons"  data-color="Sith">Sith</button>
+        <button class="colorButtons" data-color="Jedi">Jedi</button>
+        <button class="colorButtons"  data-color="Wookie">Wookie</button>
     </div>
+    <div id="squareContainer"></div>
 
-    <div id="result"></div>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

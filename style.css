@@ -1,8 +1,49 @@
-.square {
-    background: #000;
-    width: 50vw;
-    height: 50vw;
+html {
+  font-size: 20px;
 }
-.square h1 {
-    color: #fff;
+
+body {
+  background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
 }
+
+#titleText {
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Days One', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+#buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 5rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+
+.colorButtons {
+  background-color: white;
+  border: 3px solid rgb(255, 232, 31);
+  border-radius: 8px;
+  margin: 1rem;
+  width: 100px;
+  text-transform: uppercase;
+  font-family: 'Days One', sans-serif;
+}
+
+#squareContainer { 
+  display: grid;
+  max-width: 501px;
+  min-height: 501px;
+  margin: 2rem auto;
+  background-color: white;
+  border: 5px solid #d6c806;
+  border-radius: 2px;
+  box-shadow: 0 0 30px #ce6606;
+}
+
+
