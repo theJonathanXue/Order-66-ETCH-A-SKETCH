@@ -1,6 +1,6 @@
 # Order 66: ETCH-A-SKETCH
 Star Wars themed ETCH-A-SKETCH game using HTML, CSS, and JavaScript.
 
-Try at: https://thejonathanxue.github.io/Order-66-ETCH-A-SKETCH/
+[Live Demo](https://thejonathanxue.github.io/Order-66-ETCH-A-SKETCH/) 👈
 
 
